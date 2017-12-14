@@ -17,37 +17,7 @@ generateValues(1, 12, monthOfBirth);
 generateValues(1, 31, dayOfBirth);
 // this  function (generateValues ) its better than make a 3 loops inside a 3 function.
 
-/*function years() {
-	for(i = 1900; i <= 2017;i++) {
-        let option = document.createElement("option");
-        option.text = i;
-		yearOfBirth.add(option);
-	    
-	}
-}
 
-
-years(); 
-
-function months(){
-	for(i = 1;i <= 12;i+=1){
-		
-		let option = document.createElement("option");
-		option.text = i;
-		monthOfBirth.add(option);
-	}
-}
-months();
-
-function days(){
-	for(i = 1;i <= 31;i+=1){
-		
-		let option = document.createElement("option");
-		option.text = i;
-		dayOfBirth.add(option);
-	}
-}
-days();*/
 const btn = document.querySelector("#btn");
 
 const d = new Date();
